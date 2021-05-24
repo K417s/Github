@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         GlideApp.with(this)
             .load(R.drawable.cover)
-            .circleCrop()
             .override(800, 600)
             .into(img)
 
